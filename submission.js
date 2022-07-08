@@ -1,5 +1,6 @@
 const findSum = function(array) {
-  // your code here - don't forget to return a number!
+const sum = [2, 5, 7].reduce((partialSum, a) => partialSum + a, 0);
+console.log(sum); // 14 
 };
 
 const findFrequency = function(array) {
